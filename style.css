@@ -1,4 +1,10 @@
 img:hover {
   border:yellow dotted 8px;
 }
-
+h1{
+  text-align: center;
+  color: #fae588; 
+  font-style: oblique;
+    text-shadow: 20px 17px 4px grey;
+   letter-spacing: 3px;
+}
