@@ -1,7 +1,7 @@
 nav {
   list-style-type: none;
   position: fixed;
-  background-color: Green;
+  background-color: #3B0086;
   width: 100%;
   top: 0;
   left: 0;
@@ -13,8 +13,8 @@ li{
 }
 a{
   text-decoration: none;
-  color: Blue;
+  color: #EA7AF4;
 }
 li:hover {
-  background-color: gold;
+  background-color: #290628;
 }
