@@ -1,1 +1,21 @@
-
+body {
+  background-color: black;
+}
+ul{
+  list-style-position: inside;
+}
+#believed {
+  background-color: grey;
+  width: 30%;
+  text-align: center;
+}
+#disagree{
+  background: grey;
+  width: 30%;
+}
+#what {
+  background-color: grey;
+  width: 30%;
+}
+h1{ 
+color: white;}
