@@ -19,3 +19,11 @@ ul{
 }
 h1{ 
 color: white;}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
