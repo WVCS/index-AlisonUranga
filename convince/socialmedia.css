@@ -27,3 +27,14 @@ nav {
   top: 0;
   left: 0;
 }
+.navli{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+.navli:hover {
+  background-color: grey
+}
+a{
+   text-decoration: none;
+}
