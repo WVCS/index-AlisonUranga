@@ -1,1 +1,89 @@
+html{
+  background-color: #ff7900;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: orange;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navli{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+.navli:hover {
+  background-color: pink;
+}
+a{
+   text-decoration: none;
+}
+div{
+  background-color: #ff6d00; 
+  border: solid 2px; 
+  border-radius: 10px;
+}
+.wrapper{
+  display: grid; 
+  height: 90vh;
+  grid-template: 
+    "A B " auto 
+    "C D E F G" auto
+    "H" auto 
+    "I J K";
+  grid-row-gap: 3px;
+  grid-column-gap: 3px;
+}
+.A{
+  grid-area:  ;
+} /* row line / column line / end row /end column */
+.B {
+   grid-column: 2/ 9
+}
+h1{ 
+position: center;
+}
+.C {
+ grid-area: 2/ 1/2 /2  ;
+}
+.D{
+  grid-area: 2/ 2/2/ 3;
+}
+.E{
+  grid-area: 2/ 3/3/5;
+}
+.F{
+  grid-area: 2/5/ 2/6;
+}
+.G{
+  grid-area: 2/9/3/7 ;
+}
+.H {
+ grid-area: 3/2/ 3/ 7 ; 
+}
 
+.I {
+ grid-area: 4/ 1/5/3;
+  opacity:1;
+}
+.I:hover {
+  opacity:0.5;
+}
+
+.J{                        
+ grid-area: 4 /3/5/7;
+}
+.K {
+   grid-area: 4/8/5/7;
+}
+.L {
+  grid-area: 5/ 1/6/3 ;
+}
+.M{
+   grid-area: 5/ 3/5/6 ;
+}
+.N{
+  grid-area: 5/6/6/9
+}
