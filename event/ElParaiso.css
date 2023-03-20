@@ -1,1 +1,99 @@
+body {background-color: pink;
+}
+.wrapper{
+  background-color:#711A8B ;
+  width: 100vw;
+  height: fit-content; 
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #EF529C;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: top 0.3s;
+}
+.navli{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+  font-color: white;
+}
+.navli:hover {
+  background-color: #FFD33B;
+}
+a{
+   text-decoration: none;
+  color: #EF4523;
+}
+.A {
+  opacity: 60%;
+}
+.A:hover {
+opacity: 100%;
+}
+.B{ /* no specified size*/
+  boder-radius: 30%;
+   height: 40px;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+}
+ .D {
+      width: fit-content;
+      height: fit-content;
+    }
+.E{
+  
+}
+h1{
+  font-family: arial, sans-serif;
+}
+ul{
+  list-style-position: inside;
+}
+button{
+  height:40px;
+    width:200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    background-color: orange;
+    height: 90vh;
+  }
+  .C{
+    top: 50px;
+  }
+  .A{
+   top: 60px;
+  }
+  body{
+    background-color: orange;
+  }
+ .navli:hover {
+  background-color: purple;
+}
+}
+
+@media only screen and (min-width: 1024px){
+  .A{
+  padding: 9px; 
+  }  
+  
+ .E{
+  color: #FFB3C0;  
+  }
+.G:hover{
+   background-color: #FFD33B;
+}  
+ .B{
+    color: #FFD33B;
+  }
+}
 
