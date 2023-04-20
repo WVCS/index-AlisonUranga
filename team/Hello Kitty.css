@@ -1,0 +1,155 @@
+body{ 
+background-color: #FDF6B7}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: pink;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navli{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color:purple;
+}
+.navli:hover {
+  background-color: #C2F8FF;
+}
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.wrapper{
+  width: 100vw;
+  height: fit-content; 
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.alert {
+  background-color: red;
+  padding: 20px;
+}
+.alertclosebutton{
+  float: right;
+  color: white;
+  cursor: pointer;
+  font-size: 30px; 
+}
+
+.Z{
+  opacity:10%
+}
+.Z:hover {
+ opacity:100%;
+}
+
+.A{
+  opacity:20%;
+}
+.A:hover {
+ opacity:100%;
+}
+.C{
+  opacity:20%;
+}
+.C:hover {
+ opacity:100%;
+}
+
+.E{
+  opacity:20%;
+}
+.E:hover {
+ opacity:100%;
+}
+
+.G{
+  opacity:20%;
+}
+.G:hover {
+ opacity:100%;
+}
+
+.I{
+ list-style-position: inside;
+ font-size: 25px;
+  color: #8981C5;
+}
+ul{
+  list-style-position: inside;
+font-size: 20px;}
+
+hr{
+  color: black;
+}
+ p{color: purple;}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  height: fit-content; 
+  display: flex;
+  justify-content: space-evenly;}
+
+  body{
+    background-color: #ffc2d1;
+  }
+  nav {
+  list-style-type: none;
+  position: fixed;
+  background-color:#FDF6B7 ;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+  .navli:hover {
+  background-color: #BADD7E;
+}
+  p{color: #387718;}
+  
+  .I{
+    color: #0092CC;
+  }
+  .K{
+    color: #651D72;
+  }
