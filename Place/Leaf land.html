@@ -83,3 +83,20 @@
   
   
 </html> 
+<script> 
+   
+window.onscroll = function() {hideFunction()};
+
+function hideFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000)
+    document.getElementById("topbutton").style.display="block";
+  else {
+    document.getElementById("topbutton").style.display="none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
