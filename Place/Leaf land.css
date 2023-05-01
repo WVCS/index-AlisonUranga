@@ -1,0 +1,143 @@
+body{
+ background-color:#fbffb9;
+}
+div{
+  background-color: #d38421;
+  padding-bottom:200px;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #fbffb9;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navli{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.navli:hover {
+  background-color: #638122;
+}
+.wrapper {
+   display: grid; 
+   height: 500vh;
+   grid-row-gap: 3px;
+   grid-column-gap: 10px;
+}
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .a {
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-row-end: 2;
+  grid-column-end: 2; 
+  background-color: #d38421;
+  }
+  .b {
+   fit-content: ;
+   background-color: #d38421;
+  }
+  .c {
+     grid-row-start: 2;
+     grid-column-start:1;
+     grid-row-end: 2;
+     grid-column-end: 5;
+      background-color: #d38421;
+  }
+  .d {
+    grid-row-start: 2;
+     grid-row-end: 11 ;
+    color:white;
+      background-color: #d38421;
+}
+
+.e{
+   grid-row-start:3;
+   grid-column-start:1;
+  grid-row-end: ;
+  grid-column-end: 5;
+    background-color: #d38421;
+}
+.f{
+    grid-row-start:4;
+    grid-column-start:1;
+  grid-column-end: 5;
+    background-color: #d38421;
+}
+.g{
+   grid-row-start:5;
+   grid-column-start:1;
+   grid-row-end: 11;
+   grid-column-end: 5;
+    background-color: #d38421;
+}
+
+.c{
+padding:30px;
+}
+
+#rides{display:grid;
+grid-template: 
+  "A B" auto
+  "C D";
+grid-row-gap:3px;
+grid-column-gap:3px;
+margin:auto;
+  width:78%
+}
+
+
+#topbutton{
+  position: fixed; 
+  bottom: 2%;
+  left: 2%;
+  font-size: 25px; 
+  background-color: #FAEEB3;
+  border-radius: 0px ;
+  padding: 15px;
+  display: none; 
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+  flex-direction: column;
+  height: fit-content; 
+    width:fit-content;
+  display: flex;
+  justify-content: space-evenly;}
+ body{
+    background-color: #638122;
+  }
+  .a{
+    background-color: #638122;
+  }
+  .b{
+    background-color: #638122;
+  }
+  .c{
+    background-color: #638122;
+  }
+  .d{
+    background-color: #638122;
+  }
+  .e{
+    background-color: #638122;
+  }
+  .f{
+    background-color: #638122;
+  }
+  .g{
+    background-color: #638122;
+  }
