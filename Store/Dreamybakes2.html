@@ -54,4 +54,146 @@
       <input id="myInput" type="text" name="myBox"
              placeholder="Search...">
 
+<style> 
+ body {
+ background-color: #FF6484;
+}
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+.my-button {
+  background-color: transparent;
+  border: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  margin-left: 32px;
+  float: left;
+  line-height: 70px;
+  display: none;
+}
+
+.my-button:focus {
+  outline: none;
+}
+
+nav {
+    background-color: #F9AABB;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none
+}
+
+nav ul li {
+    padding: 20px 20px;
+}
+
+nav ul li a {
+    color: #56091F;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #C16DDF;
+}
+
+
+p {
+margin-left:25%;  
+  margin-right:25%;  
+  color: #FAEFD6; 
+  font-size: 20px;
+}
+
+ul{
+  font-size:20px;
+}
+a{
+  font-size: 20px;
+}
+img {
+  margin-left: -25%;
+  position: absolute;
+  bottom: 0%; 
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  height: fit-content; 
+  display: flex;
+  justify-content: space-evenly;}
+
+  body{
+    background-color: #ffc2d1;
+  }
+  
+  @media (max-width: 800px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+  }
+    body { background-color: #CB6CE6;
+  } 
+  
+  .alert {
+  padding: 20px;
+  background-color: #DB5275;
+  color: #FAEFD6;
+  font-size: 23px;
+}
+  .closebtn:hover {
+  color: #FFDE59;
+}
+  h2{
+  color: #FFDE59;
+}
+     h1{
+  color: #FFDE59;
+}
+    ul{
+      color:#FAEFD6;
+    }
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+  }
+    nav {
+        background-color: rgb(62, 109, 149);
+    }
+}
+     </style>
+    
 </html>
