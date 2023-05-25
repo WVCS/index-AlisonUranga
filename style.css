@@ -1,30 +1,101 @@
 img:hover {
-  border:yellow dotted 8px;
+  border:white dotted 8px;
 }
 h1{
   text-align: center;
-  color: #fae588; 
+  color: #f72585; 
   font-style: oblique;
-    text-shadow: 20px 17px 4px grey;
+    text-shadow: 1px 3px 3px #f08080;
    letter-spacing: 3px;
 }
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+.my-button {
+  background-color: transparent;
+  border: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  margin-left: 32px;
+  float: left;
+  line-height: 70px;
+  display: none;
+}
+
+.my-button:focus {
+  outline: none;
+}
+
 nav {
-  list-style-type: none;
-  position: fixed;
-  background-color: Green;
-  width: 100%;
-  top: 0;
-  left: 0;
+    background-color: #F9AABB;
+    flex-wrap: wrap;
 }
-li{
-  display: inline;
-  padding: 10px;
-  font-size: 20px;
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none
 }
-a{
-  text-decoration: none;
-  color: Blue;
+
+nav ul li {
+    padding: 20px 20px;
 }
-li:hover {
-  background-color: gold;
+
+nav ul li a {
+    color: #FFF4DB;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    text-decoration: underline 3px;
+    text-decoration-color: Hotpink;
+}
+
+
+body {
+  background-image: url('https://media.istockphoto.com/id/954012620/photo/rose-gold-glitter-texture-pink-red-sparkling-shiny-wrapping-paper-background-for-christmas.jpg?s=612x612&w=0&k=20&c=SBrfOSs0449pFJj82qqSfKW0IFBtK4Xa0L6o61_i1Kw=');
+}
+
+
+@media (max-width: 800px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+  }
+  img{
+     flex-direction: fit-content;
+  }
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+  }
+    nav {
+        background-color: #F9AABB;
+    }
 }
