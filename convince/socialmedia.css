@@ -19,6 +19,7 @@ ul{
 }
 h1{ 
 color: white;}
+
 nav {
   list-style-type: none;
   position: fixed;
@@ -33,8 +34,45 @@ nav {
   font-size: 20px;
 }
 .navli:hover {
-  background-color: grey;
+  background-color: grey
 }
 a{
    text-decoration: none;
+color: white;
 }
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+ul{
+  list-style-position: inside;}
+body{
+    background-color: grey;
+  }
+
+@media only screen and (max-width: 768px) {
+
+  
+  body{
+    background-color: white;
+  }
+a{
+   text-decoration: none;
+  color: black;}
+ .navli:hover {
+  background-color: grey;
+}
+  h1{
+    color: black;
+  }
+  nav{
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  body{
+    background-color: black;
+  }
+}
+
